@@ -8,10 +8,10 @@ Used to quickly create STM32F10x projects in Keil5
 ### Step 1: File Preparation
 After downloading this project, place the three folders `Library`, `Startup`, and `User` into your project's root directory. The directory structure should look like this:
 
-Project Root
-├── Library
-├── Startup
-└── User
+- Project Root/
+  - Library/
+  - Startup/
+  - User/
 
 
 ### Step 2: Keil Project Configuration
@@ -47,10 +47,10 @@ Your project environment is now set up. You can begin your application developme
 ### 一、文件准备
 下载本项目后，将 `Library`、`Startup`、`User` 三个文件夹放置到您的项目根目录下。目录结构应如下所示：
 
-项目根目录
-├── Library
-├── Startup
-└── User
+- 项目根目录/
+  - Library/
+  - Startup/
+  - User/
 
 ### 二、Keil 工程配置
 1. 在 Keil5 左侧的 **Project** 窗口中，右键单击 `Target 1`
