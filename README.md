@@ -1,6 +1,13 @@
 # STM32F10x-Quick-Startup
 Used to quickly create STM32F10x projects in Keil5
 
+---
+
+[中文](#中文指南) | [English](#english-guide)
+
+---
+
+<a id="english-guide"></a>
 # Quick Start Guide for STM32F10x Project (Keil5)
 
 ## Instructions
@@ -40,6 +47,7 @@ Your project environment is now set up. You can begin your application developme
 
 ---
 
+<a id="中文指南"></a>
 # STM32F10x 项目快速构建指南 (Keil5)
 
 ## 方法步骤
