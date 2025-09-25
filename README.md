@@ -13,17 +13,18 @@ Used to quickly create STM32F10x projects in Keil5
 ## Instructions
 
 ### Step 1: File Preparation
-After downloading this project, place the three folders `Library`, `Startup`, and `User` into your project's root directory. The directory structure should look like this:
+After downloading this project, place the three folders `Library`, `Startup`, `System`, and `User` into your project's root directory. The directory structure should look like this:
 
 - Project Root/
   - Library/
   - Startup/
+  - System/
   - User/
 
 
 ### Step 2: Keil Project Configuration
 1. In the **Project** window on the left side of Keil5, right-click on `Target 1`
-2. Create three new groups named `Library`, `Startup`, and `User`
+2. Create three new groups named `Library`, `Startup`, `System`, and `User`
 3. Right-click on each newly created group and select the **Add Existing Files to Group...** option
 4. Add all files from the corresponding physical directories to their respective groups
 
@@ -37,6 +38,7 @@ Click the magic wand icon (**Options for Target...**) and configure the followin
      - `.\Startup`
      - `.\Startup\Core`
      - `.\Library`
+     - `.\System`
      - `.\User`
 
 ### Step 4: Build Verification
@@ -53,16 +55,17 @@ Your project environment is now set up. You can begin your application developme
 ## 方法步骤
 
 ### 一、文件准备
-下载本项目后，将 `Library`、`Startup`、`User` 三个文件夹放置到您的项目根目录下。目录结构应如下所示：
+下载本项目后，将 `Library`、`Startup`、`User`、`System` 三个文件夹放置到您的项目根目录下。目录结构应如下所示：
 
 - 项目根目录/
   - Library/
   - Startup/
+  - System/
   - User/
 
 ### 二、Keil 工程配置
 1. 在 Keil5 左侧的 **Project** 窗口中，右键单击 `Target 1`
-2. 新建三个分组（Group），分别命名为 `Library`、`Startup`、`User`
+2. 新建三个分组（Group），分别命名为 `Library`、`Startup`、`User`、`System`
 3. 右键单击每个新建的分组，选择 **Add Existing Files to Group...** 选项
 4. 将对应物理目录中的全部文件添加到相应的分组中
 
@@ -76,6 +79,7 @@ Your project environment is now set up. You can begin your application developme
      - `.\Startup`
      - `.\Startup\Core`
      - `.\Library`
+     - `.\System`
      - `.\User`
 
 ### 四、编译验证
