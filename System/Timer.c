@@ -1,7 +1,5 @@
 #include "stm32f10x.h"
 
-extern uint8_t Timer_Sec;
-
 void Timer_Init(void)
 {
     RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM2, ENABLE);
@@ -30,12 +28,13 @@ void Timer_Init(void)
     TIM_Cmd(TIM2, ENABLE);
 }
 
+/*
 void TIM2_IRQHandler(void)
 {
     if(TIM_GetITStatus(TIM2, TIM_IT_Update) == SET)
     {
-        Timer_Sec ++;
 
         TIM_ClearITPendingBit(TIM2, TIM_IT_Update);
     }
 }
+*/
